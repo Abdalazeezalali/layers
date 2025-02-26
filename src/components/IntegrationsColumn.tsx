@@ -3,7 +3,7 @@ import Image from "next/image";
 import { type IntegrationsType } from "@/constants/Integrations";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
-import React, { Fragment } from "react";
+import React from "react";
 export default function IntegrationsColumn(props:{integrations:IntegrationsType;className?:string;reverse?:boolean}) {
     const{integrations,className,reverse}=props
     return (
